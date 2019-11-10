@@ -6,3 +6,7 @@ tar xvzf enron...tar.gz
 
 - how to make everything one file
 - also UTF-8 encoding?
+
+## combine to one file
+
+find ./maildir/ -type f -exec  cat {} + >> output
