@@ -31,3 +31,6 @@ hadoop jar wc.jar WordCount /user/[username]/input /user/[username]/output
 ## Collecting Output
 
 hadoop fs -get /user/[username]/output/* [destination]
+
+## Cleanup
+hadoop fs -rm -r /user/jcmali7514/*
